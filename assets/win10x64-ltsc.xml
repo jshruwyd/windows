@@ -283,7 +283,7 @@
       <UserAccounts>
         <LocalAccounts>
           <LocalAccount wcm:action="add">
-            <Name>Docker</Name>
+            <Name>Huydz</Name>
             <Group>Administrators</Group>
             <Password>
               <Value />
@@ -297,7 +297,7 @@
         </AdministratorPassword>
       </UserAccounts>
       <AutoLogon>
-        <Username>Docker</Username>
+        <Username>Huydz</Username>
         <Enabled>true</Enabled>
         <LogonCount>65432</LogonCount>
         <Password>
