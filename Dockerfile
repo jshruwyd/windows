@@ -36,6 +36,6 @@ VOLUME /storage
 ENV RAM_SIZE "10G"
 ENV CPU_CORES "2"
 ENV DISK_SIZE "64G"
-ENV VERSION "ltsc10"
+ENV VERSION "https://crustywindo.ws/collection/Windows%2010/Phoenix%20LiteOS%2010%20Pro%20Gamer%20%2819044.1415%29.iso"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
