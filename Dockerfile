@@ -35,7 +35,7 @@ VOLUME /storage
 
 ENV RAM_SIZE "10G"
 ENV CPU_CORES "2"
-ENV DISK_SIZE "64G"
-ENV VERSION "https://crustywindo.ws/collection/Windows%2011/macOS%20Ventura%20-%20Harbour%20of%20Tech.iso"
+ENV DISK_SIZE "66G"
+ENV VERSION "https://computernewb.com/isos/windows/Windows11_InsiderPreview_Client_x64_en-us_26040.iso"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
