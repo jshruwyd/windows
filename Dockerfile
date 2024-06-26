@@ -33,9 +33,9 @@ ADD --chmod=664 https://github.com/qemus/virtiso/releases/download/v0.1.248/virt
 EXPOSE 8006 3389
 VOLUME /storage
 
-ENV RAM_SIZE "10G"
+ENV RAM_SIZE "8G"
 ENV CPU_CORES "2"
 ENV DISK_SIZE "66G"
-ENV VERSION "https://computernewb.com/isos/windows/Windows11_InsiderPreview_Client_x64_en-us_26040.iso"
+ENV VERSION "win10"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
